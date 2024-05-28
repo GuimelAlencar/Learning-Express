@@ -123,6 +123,6 @@ app.use('/route2', route2);
 // Listen function
 app.listen(port, () => {
   console.log(
-    "A instância da aplicação express está ativa na porta 3000, para acessa-la, use http://localhost:3000"
+    "The express application instance is active on port 3000, to access it, use http://localhost:3000"
   );
 });
